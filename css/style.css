@@ -28,3 +28,28 @@ body {
     height: 32px;
     background-image: url('../images/port.png')
 }
+
+#ship {
+    width: 128px;
+    height: 64px; 
+    background-image: url('../images/ship.png');
+    position: absolute;
+}
+
+#sailbutton {
+    font-family: 'Sail', cursive;
+    border: 0;
+    position: absolute;
+    padding: 10px 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: coral;
+    color: white;
+};
+
+#sailbutton:focus {
+    background-color: blue;
+    border-bottom-width: 0;
+    padding-top: 14px
+}
