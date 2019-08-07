@@ -1,0 +1,20 @@
+{
+    "extends": [
+      "mcr-codes"
+    ],
+    "env": {
+      "jest": true
+    }
+  }
+
+  {
+
+    "extends": "mcr-codes",
+
+    "env": {
+
+        "browser": true
+
+    }
+
+}
